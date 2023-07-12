@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
+
+.square:hover {
+    background-color: green;
+}
+
+.drawn {
+    background-color: black;
+}
